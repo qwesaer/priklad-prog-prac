@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальная страница</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<body>
+    <header>
+        <h1>Музыкальная страница</h1>
+        <p>Хорошая музыка</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="photo_page.html">Фотогалерея</a></li>
+            <li><a href="music_page.html">Музыка</a></li>
+            <li><a href="video_page.html">Видео</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <main>
+            <h2>Аудио-плеер</h2>
+            <p>Наслаждайтесь музыкой прямо на сайте. Нажмите кнопку Play для воспроизведения.</p>
+            
+            <audio controls>
+                <source src="audio/music.mp3" type="audio/mpeg">
+                Ваш браузер не поддерживает элемент audio.
+            </audio>
+            
+            <p class="back-link"><a href="index.html">⬅ Вернуться на главную страницу</a></p>
+        </main>
+
+        <aside>
+            <h3>О музыке</h3>
+            <p>Послушайте музыку и отдохните.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Все права защищены.</p>
+        <p>Выполнено в рамках практической работы</p>
+    </footer>
+</body>
+</html>

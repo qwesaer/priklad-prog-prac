@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео-страница</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Видео-страница</h1>
+        <p>Популярные видео</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="photo_page.html">Фотогалерея</a></li>
+            <li><a href="music_page.html">Музыка</a></li>
+            <li><a href="video_page.html">Видео</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <main>
+            <h2>Видео-плеер</h2>
+            <p>Смотрите видео прямо на сайте. Нажмите кнопку Play для воспроизведения.</p>
+            
+            <video width="560" height="315" controls>
+                <source src="video/movie.mp4" type="video/mp4">
+                Ваш браузер не поддерживает элемент video.
+            </video>
+            
+            <p class="back-link"><a href="index.html">⬅ Вернуться на главную страницу</a></p>
+        </main>
+
+        <aside>
+            <h3>О видео</h3>
+            <p>Здесь собраны популярные видео из интернета.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Все права защищены.</p>
+        <p>Выполнено в рамках практической работы</p>
+    </footer>
+</body>
+</html>
