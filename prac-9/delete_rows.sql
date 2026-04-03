@@ -1,0 +1,1 @@
+DELETE FROM demo_table_renamed WHERE id IN (1, 2, 3);
