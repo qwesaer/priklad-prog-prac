@@ -1,0 +1,10 @@
+sudo apt install -y lxc lxc-utils uidmap - установка lxc
+
+sudo lxc-create -t download -n mycontainer -- --dist debian --release bookworm --arch amd64 - создание контейнера
+
+
+sudo lxc-ls -f - список контейнеров
+
+sudo lxc-start -n mycontainer - запуск контейнера
+
+sudo lxc-attach -n mycontainer - подключиться в контейнер
